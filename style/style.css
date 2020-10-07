@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.wrapper{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+form {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0 30px;
+}
+
+input{
+    width: 100%;
+    height: 45px;
+    padding-left: 5px;
+}
+
+.table-Persons{
+    width: 650px;
+}
+
+.table-Persons table{
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.table-Persons table tr th{
+    height: 50px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    user-select: none;
+    text-align: center;
+    margin: 40px;
+}
+
+.table-Persons table tr td{
+    height: 60px;
+    text-align: start;
+    margin-left: 10px;
+    border-top: 1px solid grey;
+    text-align: center;
+    overflow: hidden;
+}
+
+#btn{
+    width: 80px;
+    height: 40px;
+    border: 1px solid #2dce6b;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #2dce6b;
+    cursor: pointer;
+    outline-style: none;
+}
+
+#btn:hover{
+    background-color: #1c944a; 
+    color: #ffffff;
+}
+
+.table-Persons table tr td .editBtn{
+    width: 60px;
+    height: 40px;
+    background-color: #fdcf00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline-style: none;
+}
+
+.table-Persons table tr td .editBtn:hover{
+    background-color: #e6c302f6;
+}
+
+.table-Persons table tr td .deleteBtn{
+    width: 70px;
+    height: 40px;
+    background-color: #d82c2c;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline-style: none;
+}
+
+.table-Persons table tr td .deleteBtn:hover{
+    background-color: #9b2020fa;
+}
